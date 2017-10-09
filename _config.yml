@@ -1,0 +1,27 @@
+# Dependencies
+markdown:            kramdown
+highlighter:         rouge
+plugins:
+  - jekyll-sitemap
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           /:title
+# relative_permalinks: true
+
+# Setup
+title:               Catskull Games
+tagline:             'New games for old consoles'
+description:         'New games for old consoles including Nintendo Gameboy and more!'
+url:                 http://catskullgames.com
+baseurl:             /
+
+# About/contact
+author:
+  name:              David DeGraw
+  url:               http://catskull.net
+  email:             bro@catskull.net
+
+# Custom vars
+version:             1.0.0
