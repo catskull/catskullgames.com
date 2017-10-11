@@ -42,6 +42,7 @@ p {
 
 .gallery img {
   margin-bottom: 0;
+  margin: 0 auto;
 }
 
 #gallery_subtitle {
