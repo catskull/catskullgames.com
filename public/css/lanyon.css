@@ -323,7 +323,7 @@ a.sidebar-nav-item:focus {
   border-width: 0.2rem;
   padding: 1rem;
   background-color: #fff;
-  border-radius: 0.1rem;
+  border-radius: 8px;
 }
 
 .index-post {

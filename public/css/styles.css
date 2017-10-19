@@ -93,7 +93,7 @@ p {
   background-color: #FCF200;
   border-style: solid;
   padding: 4px;
-  border-radius: 0.1rem;
+  border-radius: 5px;
   cursor: pointer;
 }
 
@@ -141,7 +141,7 @@ input[type=text] {
   background-color: #FCF200;
   border-style: solid;
   padding: 4px;
-  border-radius: 0.1rem;
+  border-radius: 5px;
   cursor: pointer;
   width: 7rem;
   text-align: center;
