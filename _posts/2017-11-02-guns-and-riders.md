@@ -1,18 +1,18 @@
 ---
 layout: default
-title: Sheep It Up!
-description: A brand new Nintendo Gameboy homebrew game where a sheep must climb as high as possible!
+title: Guns & Riders
+description: A brand new Nintendo Gameboy homebrew game where a wild west sherrif must take out all the outlaws!
 price: 15
-image: /public/images/sheepitup/1.jpg
-pos: 1
-new: false
-featured: true
+image: /public/images/gunsandriders/1.png
+pos: 2
+new: true
+hidden: true
 ---
-# Sheep It Up!
+# Guns & Riders
 
 <div class="gallery">
-	<img src="/public/images/sheepitup/1.jpg" alt="Sheep It Up! Cartridge" id="gallery_image" onclick="cycle(1); return false;">
-	<p id="gallery_subtitle">Sheep It Up! Cartridge</p>
+	<img src="/public/images/gunsandriders/1.png" alt="Guns & Riders Cartridge" id="gallery_image" onclick="cycle(1); return false;">
+	<p id="gallery_subtitle">Guns & Riders Cartridge</p>
 	<p id="gallery_pos_text">1/4</p>
 	<div id="gallery_nav">
 		<p id="gallery_nav_left" onclick="cycle(0); return false;">←</p>
@@ -24,7 +24,7 @@ featured: true
 
 <form id="paypal" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="VUC3GYRK7S5HS">
+<input type="hidden" name="hosted_button_id" value="T5CE2895S98K6">
 </form>
 
 
@@ -36,8 +36,7 @@ featured: true
 
 Shipping is flat rate $5 in the US. International shipping should be around $8. I'll send a PayPal request after you order for the extra cost.
 
-"Sheep it up!" is a one-button arcade game where a sheep has to climb up by hanging himself to flying velcro straps. The concept is simple, but the game rapidly gets quite challenging!
-How high can you climb without falling down?
+"Guns & Riders" is a fast-paced arcade style game for the Nintendo Gameboy. You're the sheriff and the town has been overrun by outlaws! Take out as many as you can, but don't let any slip past you or you'll lose a life. Also, keep track of your ammo because you can only reload so fast!
 
 Cartridge with label and protective case is included. No box or manual is included.
 
@@ -45,4 +44,4 @@ I will ship to the address entered on the PayPal checkout page, so please double
 
 By purchasing, you are acknowledging that you've read and understand this page as well as my [FAQ](/faq) page.
 
-<script src="{{ site.baseurl }}public/js/sheepitupgallery.js"></script>
+<script src="{{ site.baseurl }}public/js/gunsandridersgallery.js"></script>
