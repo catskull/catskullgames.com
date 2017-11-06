@@ -6,7 +6,7 @@ price: 15
 image: /public/images/sheepitup/1.jpg
 pos: 1
 new: false
-featured: true
+featured: false
 ---
 # Sheep It Up!
 

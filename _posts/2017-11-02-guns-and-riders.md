@@ -6,7 +6,7 @@ price: 15
 image: /public/images/gunsandriders/1.png
 pos: 2
 new: true
-hidden: true
+hidden: false
 ---
 # Guns & Riders
 
