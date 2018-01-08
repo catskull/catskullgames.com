@@ -34,7 +34,7 @@ hidden: false
 
 ## Details:
 
-Shipping is flat rate $5 in the US. International shipping should be around $8. I'll send a PayPal request after you order for the extra cost.
+Shipping is flat rate $5 in the US. International is flat rate $8.
 
 "Guns & Riders" is a fast-paced arcade style game for the Nintendo Gameboy. You're the sheriff and the town has been overrun by outlaws! Take out as many as you can, but don't let any slip past you or you'll lose a life. Also, keep track of your ammo because you can only reload so fast!
 
