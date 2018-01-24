@@ -34,7 +34,7 @@ featured: false
 
 ## Details:
 
-Shipping is flat rate $5 in the US. International shipping is flat rate $8.
+Shipping is flat rate $5 in the US. International shipping is flat rate $15.
 
 "Sheep it up!" is a one-button arcade game where a sheep has to climb up by hanging himself to flying velcro straps. The concept is simple, but the game rapidly gets quite challenging!
 How high can you climb without falling down?
