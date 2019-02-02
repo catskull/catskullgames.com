@@ -4,7 +4,7 @@ title: Sheep It Up!
 description: A brand new Nintendo Gameboy homebrew game where a sheep must climb as high as possible!
 price: 15
 image: /public/images/sheepitup/1.jpg
-pos: 2
+pos: 3
 new: false
 featured: false
 ---

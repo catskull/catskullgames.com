@@ -3,17 +3,16 @@ layout: default
 title: Tower of Hanoi
 description: A brand new Nintendo Gameboy homebrew game!
 price: 15
-image: /public/images/airakai/1.jpg
+image: /public/images/towerofhanoi/1.jpg
 pos: 1
 new: true
-featured: true
-hidden: true
+featured: false
 ---
 # Tower of Hanoi
 
 <div class="gallery">
-	<img src="/public/images/airakai/1.jpg" alt="Airaki Cartridge" id="gallery_image" onclick="cycle(1); return false;">
-	<p id="gallery_subtitle">Airaki Cartridge</p>
+	<img src="/public/images/towerofhanoi/1.jpg" alt="Tower of Hanoi Cartridge" id="gallery_image" onclick="cycle(1); return false;">
+	<p id="gallery_subtitle">Tower of Hanoi Cartridge</p>
 	<p id="gallery_pos_text">1/4</p>
 	<div id="gallery_nav">
 		<p id="gallery_nav_left" onclick="cycle(0); return false;">←</p>
@@ -25,7 +24,7 @@ hidden: true
 
 <form id="paypal" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="ZPPL2HDV7JJ2Q">
+<input type="hidden" name="hosted_button_id" value="EMWQ2MF4744YS">
 </form>
 
 
