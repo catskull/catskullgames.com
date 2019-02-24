@@ -4,7 +4,7 @@ title: Guns & Riders
 description: A brand new Nintendo Gameboy homebrew game where a wild west sheriff must take out all the outlaws!
 price: 15
 image: /public/images/gunsandriders/1.png
-pos: 4
+pos: 5
 new: false
 hidden: false
 ---
