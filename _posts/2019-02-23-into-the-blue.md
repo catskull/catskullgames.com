@@ -2,12 +2,11 @@
 layout: default
 title: Into the Blue
 description: A brand new Nintendo Gameboy homebrew game!
-price: 30
+price: 25
 image: /public/images/intotheblue/1.jpg
 pos: 1
 new: true
 featured: true
-hidden: true
 ---
 # Into the Blue
 
@@ -21,7 +20,7 @@ hidden: true
 	</div>
 </div>
 
-## $30.00
+## $25.00
 
 <form id="paypal" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
