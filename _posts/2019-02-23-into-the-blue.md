@@ -6,7 +6,6 @@ price: 25
 image: /public/images/intotheblue/1.jpg
 pos: 1
 new: true
-featured: true
 ---
 # Into the Blue
 

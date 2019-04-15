@@ -5,7 +5,6 @@ description: A brand new Nintendo Gameboy homebrew game!
 price: 15
 image: /public/images/towerofhanoi/1.jpg
 pos: 2
-new: true
 featured: false
 ---
 # Tower of Hanoi
