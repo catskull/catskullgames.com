@@ -26,7 +26,7 @@ function cycle(direction) {
     switch (i) {
       case 1:
         image.src = baseurl + '1.jpg';
-        image.alt = "Dangan Cartridge";
+        image.alt = "Dangan GB Cartridge";
         text.innerHTML = "1/4";
         break;
 
