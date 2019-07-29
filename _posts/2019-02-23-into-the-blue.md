@@ -5,7 +5,8 @@ description: A brand new Nintendo Gameboy homebrew game!
 price: 25
 image: /public/images/intotheblue/1.jpg
 pos: 1
-new: true
+new: false
+product_id: 3947553685582
 ---
 # Into the Blue
 
@@ -19,21 +20,11 @@ new: true
 	</div>
 </div>
 
-## $25.00
+## ${{ page.price }}.00
 
-<form id="paypal" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="6ZXFHFPHVUNAW">
-</form>
-
-
-<div class="addToCart noselect" onclick="addToCart()">
-  Add to cart
-</div>
+{% include shopify_markup.html %}
 
 ## Details:
-
-Shipping is flat rate $5 in the US. International is flat rate $15.
 
 Work fast to keep the rising panels from flying too close to the sun! Swap panels and get three or more in a row to clear the play field. Relax and see how far you can go, and when you master, link up with a friend and go head to head!
 
@@ -46,8 +37,6 @@ Developed by and published with permission from [Jonas Fischbach](https://the-gr
 
 Cartridge with label and protective case is included. No box or manual is included.
 
-I will ship to the address entered on the PayPal checkout page, so please double check to make sure it’s correct.
-
-By purchasing, you are acknowledging that you've read and understand this page as well as my [FAQ](/faq) page.
+{% include product_footer.md %}
 
 <script src="{{ site.baseurl }}public/js/intothebluegallery.js"></script>

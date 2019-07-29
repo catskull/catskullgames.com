@@ -11,7 +11,7 @@ Yep! If something is out of stock, the product page will be updated to reflect t
 
 ### What shipping method do you use?
 
-I use USPS First-Class. If you need me to use another courrier, please [contact me](mailto:bro@catskull.net) before ordering.
+I use USPS First-Class. If you need me to use another courrier, please [contact me](mailto:support@catskullelectronics.com) before ordering.
 
 ### Do you provide a tracking number?
 
@@ -27,12 +27,12 @@ I include estimated time for shipment on each product page. Once your package ha
 
 ### Will my package be insured?
 
-Nope. If you need insurance, please [contact me](mailto:bro@catskull.net) before ordering.
+Nope. If you need insurance, please [contact me](mailto:support@catskullelectronics.com) before ordering.
 
 ### I think my package was lost/damaged in shipping!
 
-Sorry about that! Again, no packages are insured unless you specifically ask me to. This keeps shipping costs low and 99% of the time it's fine. At the same time, I can't be liable for whatever USPS decides to do with the package once I give it to them. So as it stands, **order at your own risk**. If you have issues with that, [contact me](mailto:bro@catskull.net)!
+Sorry about that! Again, no packages are insured unless you specifically ask me to. This keeps shipping costs low and 99% of the time it's fine. At the same time, I can't be liable for whatever USPS decides to do with the package once I give it to them. So as it stands, **order at your own risk**. If you have issues with that, [contact me](mailto:support@catskullelectronics.com)!
 
 ### Something else!
 
-[Contact me!](mailto:bro@catskull.net)
+[Contact me!](mailto:support@catskullelectronics.com)

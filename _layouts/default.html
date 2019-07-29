@@ -27,13 +27,16 @@
               Music
             </span>
           </a>
-          <span class="cart-button noselect" onclick="submitForm()">View Cart</span>
+          <span class="cart-button noselect" onclick="viewCart(event)">View Cart</span>
         </div>
       </div>
 
-      <!-- <div class="container content post">
-        <h3 class="notice">Welcome to Catskull Games, the newest venture in the <a href="https://catskullelectronics.com">Catskull Electronics</a> world. I'll be publishing games for various retro consoles and selling them here. If you have a game you'd like to see published, send it to <a href="mailto:idea@catskullgames.com">idea@catskullgames.com</a>!</h3>
-      </div> -->
+      <div class="container content post">
+        <h3 class="notice">
+          I've switched payment providers! PayPal is still accepted. <a href="mailto:support@catskullelectronics.com">Contact
+            me</a> if you have any problems.
+        </h3>
+      </div>
 
       <div class="container content post main">
         {{ content }}
@@ -57,18 +60,24 @@
     </div>
 
     <script type="text/javascript">
-      function submitForm() {
-        document.getElementById("viewCart").submit();
+      function viewCart(event) {
+        event.stopPropagation()
+        document.getElementsByClassName('shopify-buy__cart-toggle')[0].click()
       }
 
-      function addToCart() {
-        document.getElementById("paypal").submit();
+      function addToCart(event) {
+        var options = document.getElementById('options-selection')
+        if (options) {
+          var el = document.getElementsByClassName('shopify-buy__option-select__select')[0]
+          el.selectedIndex = options.selectedIndex
+          var e = document.createEvent('HTMLEvents');
+          e.initEvent('change', true, false);
+          el.dispatchEvent(e);
+        }
+
+        event.stopPropagation()
+        document.getElementById('shopify-button').getElementsByTagName('button')[0].click()
       }
     </script>
-    <form id="viewCart" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
-      <input type="hidden" name="cmd" value="_cart">
-      <input type="hidden" name="business" value="VVCPF3W8VNKHS">
-      <input type="hidden" name="display" value="1">
-    </form>
   </body>
 </html>

@@ -12,6 +12,10 @@ p {
   word-wrap: break-word;
 }
 
+.shopify-buy-frame--toggle {
+  display: none !important;
+}
+
 .tile {
   width: 18em;
   padding-left: 7.5px;

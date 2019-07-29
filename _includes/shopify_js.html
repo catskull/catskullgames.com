@@ -1,0 +1,87 @@
+<script type="text/javascript">
+  /*<![CDATA[*/
+
+  (function () {
+    var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+    if (window.ShopifyBuy) {
+      if (window.ShopifyBuy.UI) {
+        ShopifyBuyInit();
+      } else {
+        loadScript();
+      }
+    } else {
+      loadScript();
+    }
+
+    function loadScript() {
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = scriptURL;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+      script.onload = ShopifyBuyInit;
+    }
+
+    function ShopifyBuyInit() {
+      var client = ShopifyBuy.buildClient({
+        domain: 'catskull-electronics.myshopify.com',
+        storefrontAccessToken: 'f47da39a0c16cc85933d7bd3f77099d3',
+      });
+
+      ShopifyBuy.UI.onReady(client).then(function (ui) {
+        ui.createComponent('product', {
+          id: [{{ page.product_id }} ],
+          node: document.getElementById('shopify-button'),
+          moneyFormat: '%24%7B%7Bamount%7D%7D',
+          options: {
+            "product": {
+              "iframe": false,
+              "variantId": "all",
+              "contents": {
+                "img": false,
+                "imgWithCarousel": false,
+                "title": false,
+                "variantTitle": false,
+                "price": false,
+                "description": false,
+                "buttonWithQuantity": false,
+                "quantity": false
+              }
+            },
+            "cart": {
+              "iframe": true,
+              "popup": false,
+              "contents": {
+                "button": true
+              },
+              "styles": {
+                "button": {
+                  "background-color": "#fcf200",
+                  "color": "#515151",
+                  "font-size": "18px",
+                  "padding-top": "17px",
+                  "padding-bottom": "17px",
+                  "border": "solid",
+                  ":hover": {
+                    "background-color": "#e3da00",
+                    "color": "#515151"
+                  },
+                  "border-radius": "5px",
+                  ":focus": {
+                    "background-color": "#e3da00"
+                  }
+                },
+                "footer": {
+                  "background-color": "#ffffff"
+                }
+              }
+            },
+            toggle: {
+              iframe: false
+            }
+          }
+          });
+    });
+  }
+    }) ();
+    /*]]>*/
+</script>

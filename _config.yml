@@ -20,8 +20,8 @@ baseurl:             /
 # About/contact
 author:
   name:              David DeGraw
-  url:               http://catskull.net
-  email:             bro@catskull.net
+  url:               https://catskullgames.com
+  email:             support@catskullelectronics.com
 
 # Custom vars
 version:             1.0.0

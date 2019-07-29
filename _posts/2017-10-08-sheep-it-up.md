@@ -7,6 +7,7 @@ image: /public/images/sheepitup/1.jpg
 pos: 4
 new: false
 featured: false
+product_id: 3947484905550
 ---
 # Sheep It Up!
 
@@ -20,17 +21,9 @@ featured: false
 	</div>
 </div>
 
-## $15.00
+## ${{ page.price }}.00
 
-<form id="paypal" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="VUC3GYRK7S5HS">
-</form>
-
-
-<div class="addToCart noselect" onclick="addToCart()">
-  Add to cart
-</div>
+{% include shopify_markup.html %}
 
 ## Details:
 
@@ -41,8 +34,6 @@ How high can you climb without falling down?
 
 Cartridge with label and protective case is included. No box or manual is included.
 
-I will ship to the address entered on the PayPal checkout page, so please double check to make sure it’s correct.
-
-By purchasing, you are acknowledging that you've read and understand this page as well as my [FAQ](/faq) page.
+{% include product_footer.md %}
 
 <script src="{{ site.baseurl }}public/js/sheepitupgallery.js"></script>

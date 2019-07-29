@@ -7,6 +7,7 @@ image: /public/images/gunsandriders/1.png
 pos: 5
 new: false
 hidden: false
+product_id: 3947534647374
 ---
 # Guns & Riders
 
@@ -20,17 +21,9 @@ hidden: false
 	</div>
 </div>
 
-## $15.00
+## ${{ page.price }}.00
 
-<form id="paypal" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="T5CE2895S98K6">
-</form>
-
-
-<div class="addToCart noselect" onclick="addToCart()">
-  Add to cart
-</div>
+{% include shopify_markup.html %}
 
 ## Details:
 
@@ -40,8 +33,6 @@ Shipping is flat rate $5 in the US. International is flat rate $15.
 
 Cartridge with label and protective case is included. No box or manual is included.
 
-I will ship to the address entered on the PayPal checkout page, so please double check to make sure it’s correct.
-
-By purchasing, you are acknowledging that you've read and understand this page as well as my [FAQ](/faq) page.
+{% include product_footer.md %}
 
 <script src="{{ site.baseurl }}public/js/gunsandridersgallery.js"></script>
