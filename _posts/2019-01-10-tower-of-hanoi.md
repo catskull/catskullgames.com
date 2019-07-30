@@ -26,8 +26,6 @@ product_id: 3947549425742
 
 ## Details:
 
-Shipping is flat rate $5 in the US. International is flat rate $15.
-
 >"In 1615, the ancient temple of Khai Quoc, situated on the banks of the Red River, is gravely threatened by shoreline erosion.
 >
 >The monks have to save the temple by moving it to safe ground on the other side of the river, where there are two locations stable enough to hold the temple tower.

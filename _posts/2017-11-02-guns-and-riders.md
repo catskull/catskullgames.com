@@ -27,8 +27,6 @@ product_id: 3947534647374
 
 ## Details:
 
-Shipping is flat rate $5 in the US. International is flat rate $15.
-
 "Guns & Riders" is a fast-paced arcade style game for the Nintendo Gameboy. You're the sheriff and the town has been overrun by outlaws! Take out as many as you can, but don't let any slip past you or you'll lose a life. Also, keep track of your ammo because you can only reload so fast!
 
 Cartridge with label and protective case is included. No box or manual is included.
