@@ -7,7 +7,7 @@ image: /public/images/deathplanet/1.jpg
 pos: 1
 new: true
 featured: true
-hidden: true
+hidden: false
 product_id: 4004297506894
 ---
 # Death Planet
