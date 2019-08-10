@@ -34,6 +34,8 @@ product_id: 3947549425742
 
 Cartridge with label and protective case is included. No box or manual is included.
 
+$1 from every sale will be donated to [Save the Children](https://www.savethechildren.org/).
+
 {% include product_footer.md %}
 
 <script src="{{ site.baseurl }}public/js/towerofhanoigallery.js"></script>
