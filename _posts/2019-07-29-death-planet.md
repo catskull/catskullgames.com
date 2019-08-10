@@ -36,7 +36,9 @@ product_id: 4004297506894
 >
 >A rebel fighter squadron is on a sabotage mission to destroy the Death Planet and restore peace to the galaxy.
 
-From Mackerel Interactive comes quite possibly the first game for the original Gameboy system with 3D graphics that is actually fun to play! Navigate the corridor and avoid the obsticals to take down the evil empire.
+From Mackerel Interactive comes quite possibly the first game for the original Gameboy system with 3D graphics that is actually fun to play! Navigate the corridor and avoid the obstacles to take down the evil empire.
+
+$1 from every sale will be donated to [Save the Children](https://www.savethechildren.org/).
 
 {% include product_footer.md %}
 
