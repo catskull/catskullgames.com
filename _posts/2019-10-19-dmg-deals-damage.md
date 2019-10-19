@@ -7,7 +7,7 @@ image: /public/images/dmgdealsdamage/1.jpg
 pos: 1
 new: true
 featured: false
-hidden: true
+hidden: false
 product_id: 4291270606926
 ---
 # DMG Deals Damage
