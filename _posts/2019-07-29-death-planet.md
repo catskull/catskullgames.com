@@ -6,7 +6,7 @@ price: 15
 image: /public/images/deathplanet/1.jpg
 pos: 1
 new: true
-featured: true
+featured: false
 hidden: false
 product_id: 4004297506894
 ---
