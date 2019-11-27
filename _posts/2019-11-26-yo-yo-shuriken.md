@@ -7,7 +7,7 @@ image: /public/images/yoyoshuriken/1.jpg
 pos: 1
 new: true
 featured: true
-hidden: true
+hidden: false
 product_id: 4402981306446
 ---
 # Yo-Yo Shuriken
@@ -51,7 +51,7 @@ product_id: 4402981306446
 > - 7 levels of intense action!
 > - Solo and 2-player co-op modes!
 
-Region free cartridge. Tested and working on NTSC SNES, PAL SNES, JP SFC, and Analogue Super Nt. Probably works on clones and emulator consoles, but not tested or guranteed.
+Region free cartridge. Tested and working on NTSC SNES, PAL SNES, JP SFC, and Analogue Super Nt. Probably works on clones and emulator consoles, but not tested or guaranteed.
 
 Cartridge only option includes a cartridge with a full color label.
 
