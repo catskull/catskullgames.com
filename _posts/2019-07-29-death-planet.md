@@ -5,7 +5,7 @@ description: A brand new Nintendo Gameboy homebrew game!
 price: 15
 image: /public/images/deathplanet/1.jpg
 pos: 1
-new: true
+new: false
 featured: false
 hidden: false
 product_id: 4004297506894
